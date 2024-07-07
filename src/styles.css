@@ -126,6 +126,7 @@ a:hover {
 }
 
 .main-content {
+
     padding-top: 116px;
     min-height: 100vh
 }
@@ -144,7 +145,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr {
  */
 
 .header-desktop {
-    background: #0da8e4;
+    background: #a80202;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
@@ -224,7 +225,7 @@ section {
 }
 
 .au-input-xl {
-    min-width: 935px
+    min-width: 500px
 }
 
 input.au-input.au-input-xl {
@@ -260,7 +261,7 @@ input.au-input.au-input-xl {
 }
 
 .total {
-    background: #205b8d;
+    background: #000000;
     line-height: 43px;
     color: #fff;
     border-radius: 30px;
@@ -293,11 +294,11 @@ input.au-input.au-input-xl {
     right: 0;
     min-width: 95px;
     color: #fff;
-    border: 1px solid #205b8d;
+    border: 1px solid #000000;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 43px;
-    background: #205b8d
+    background: #000000
 }
 
 .au-btn-submit:hover {
@@ -329,12 +330,12 @@ input.au-input.au-input-xl {
     left: 0;
     top: 0;
     bottom: 0;
-    background: #fff;
+    background: #a80202;
     overflow-y: auto
 }
 
 .menu-sidebar .logo {
-    background: #fff;
+    background: #000000;
     height: 75px;
     padding: 0 35px;
     display: -webkit-box;
@@ -378,7 +379,7 @@ input.au-input.au-input-xl {
 
 .navbar-sidebar .navbar-list li a {
     display: block;
-    color: #555;
+    color: #ffffff;
     font-size: 16px;
     padding: 5px 0
 }
@@ -388,7 +389,7 @@ input.au-input.au-input-xl {
 }
 
 .navbar-sidebar .navbar-list li a:hover {
-    color: #0da8e4
+    color: #0e5f80
 }
 
 /* 
@@ -547,7 +548,7 @@ input.au-input.au-input-xl {
 }
 
 .main-content.page-m {
-    padding: 10% 15% !important
+    padding: 10% 30% 10% 5%
 }
 
 /* 
@@ -574,10 +575,10 @@ input.au-input.au-input-xl {
     margin-bottom: 60px
 }
 
-.price {
+.price1 {
     margin: 15px 0 0;
     font-weight: 800;
-    color: #0da8e4
+    color: #a80202
 }
 
 .product-box h1 {
@@ -747,7 +748,7 @@ table.table.table-bordered {
 }
 
 table.table.table-bordered th {
-    BACKGROUND: #0da8e4;
+    BACKGROUND: #131313;
     color: #fff;
     font-size: 14px;
     padding: 7px
@@ -796,7 +797,7 @@ table.table.table-bordered th {
  */
 
 .btn-info {
-    color: #fff;
+    color: #ffffff;
     background-color: #0da8e4 !important;
     border-color: #0da8e4 !important
 }
@@ -814,7 +815,7 @@ a.primary-btn {
 
 a.primary-btn:hover {
     background: #0da8e4;
-    color: #fff
+    color: #ffffff
 }
 
 .active-link {
@@ -828,11 +829,11 @@ a.primary-btn:hover {
  */
 
 footer ul li a {
-    color: #fff
+    color: #ffffff
 }
 
 footer {
-    background: #232324;
+    background-image: url('assets/images/akat3.png');
     z-index: 1;
     position: relative;
     text-align: center
@@ -845,8 +846,8 @@ footer li a {
 
 footer ul li {
     display: inline-block;
-    font-size: 14px;
-    padding: 10px 20px
+    font-size: 20px;
+    padding: 10px 30px
 }
 
 /* 
