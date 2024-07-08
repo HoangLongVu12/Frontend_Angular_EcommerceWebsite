@@ -30,12 +30,16 @@ export class CartDetailsComponent implements OnInit {
     );
 
     // subscribe to the cart totalQuantity
-    this.cartService.totalQuantity.subscribe( 
+    this.cartService.totalQuantity.subscribe(
       data => this.totalQuantity = data
     );
 
     // compute cart total price and quantity
     this.cartService.computeCartTotals();
+  }
+
+  incrementQuantity(theCartItem: CartItem) {
+    this.cartService.addToCart(theCartItem);
   }
 
 }
